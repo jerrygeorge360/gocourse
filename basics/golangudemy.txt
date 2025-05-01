@@ -1,0 +1,73 @@
+# About GO
+GO- statically typed compiled(google robert Griesemer)2009
+Similar to C
+memory safety and gc
+competitor to rust.
+# WHY GO
+fastest and most efficient,approach to concurency(coroutines),perfomance(machine code directly ),readability and maintainability,modern practices,security(memory manangement and strong typing),versatility.
+# GO DISCORD
+https://discord.com/invite/aVJPs76B6M
+# GO PLAYGROUND
+go playground-google search
+# EXTENSIONS
+go
+coderunner
+error lens
+TODO Tree
+
+# VERSION CONTROL
+git
+
+# CODING
+## GO commands
+go run
+
+# Structure of GO
+to run a go program: go run filename
+to build a go program : go build filename->returns a binary executable.
+main-> entry points
+package main->like modules
+fmt-> use for i/o outputs.
+Go supports any unicode, package main is compulsory to tell the compiler it is an excutable
+
+### Go compiler
+translator for your code,handles gc,memory allocation,execution,runtime
+why go runtime despite the compiler compiling directly to machine code? to manage certain aspect e.g memory allocation,gc,concurency(goroutines)
+Go takes away the negatives in c and c++(manually memory allocation and concurency)
+c and c++ doesn't have a runtime support.
+
+### standard library
+set of prewritten codes
+to use them in go -> import "package name"
+go enforces modular approach in go,i.e you must import a package to use it
+
+### import statement
+Tree shaking->used to remove dead codes,thereby reducing filesize in the final executable
+namables
+to import multiple packages
+import ("fmt"
+,"net/http")
+ named import ->
+import ("fmt"
+foo "net/http")
+
+# Data types
+Integers,Floating Point numbers,Complex numbers,Booleans,Strings,Constants,Arrays,Structs,Pointers,Maps,Slices,Functions,Channels,JSON,Text and html templates
+
+
+# variables
+var age int = 10
+or the gover symbol
+age := 10
+don't use the gover symbol with var
+//Default values
+// Numeric Types:0
+// Boolean types:false
+// String Type: ""
+// Pointers,slices,maps,functions and structs:nil
+
+## Naming conventions
+PascalCase-> Structs,interfaces,enums
+snake_case -> variables,constant,filenames
+UPPERCASE -> constants
+mixedCase -> booleans,externallibraries,
