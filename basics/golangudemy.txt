@@ -102,4 +102,16 @@ var matrix [3][3]int = [3][3]int{
     {7,8,9},
 }
 # slices
-copy,append,make
+copy,append,make,slices.Equal,cap
+
+# maps
+var mapVariable map[keyType]valueType
+mapVariable = make(map[keyType]valueType)
+mapVariable = map[keyType]valueType{
+    key1:value1,
+}
+delete,clear,
+_,status := myMap["key"]->checks if a value is associated with this,returns true or false
+maps.Equal
+
+# range
