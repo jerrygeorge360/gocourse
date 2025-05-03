@@ -125,3 +125,14 @@ channel -> iterates until channel is closed
 use blank identifier if you aren't using a value to prevent memory leaks
 
 # functions
+public functions should be UPPERCASE
+private functions LOWERCASE
+
+they are first class objects and citizens
+# multiple return values
+func compare(a,b int)(string,error){
+    
+}
+
+# variadic functions
+functions that allow you create a variable number of arguments just like kwargs args in python
