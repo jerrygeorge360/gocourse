@@ -115,3 +115,13 @@ _,status := myMap["key"]->checks if a value is associated with this,returns true
 maps.Equal
 
 # range
+why use it?
+clean and efficient way
+enhances readability
+
+arrays,slices,strings->iterates from first to last
+maps->iterates in no order
+channel -> iterates until channel is closed
+use blank identifier if you aren't using a value to prevent memory leaks
+
+# functions
