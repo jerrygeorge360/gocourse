@@ -71,3 +71,35 @@ PascalCase-> Structs,interfaces,enums
 snake_case -> variables,constant,filenames
 UPPERCASE -> constants
 mixedCase -> booleans,externallibraries,
+
+# arithmetic operations
+overflow->result of computation exceeds maximum value that can be stored in a datatype
+underflow -> result of computation smaller than the minimum value that can be stored in a datatype(loss of precison)
+
+# for loop
+syntax
+for initialization; codition;post{
+
+}
+break -> terminates the loop
+continue -> skip current iteration goes to the next
+
+# operators
+!NOT,||OR,&&AND
+
+# if else
+
+#Arrays
+fixed sized data collection of a single type
+var arrayName [size]elementType
+_ -> blank identifier
+
+
+multidimensional array
+var matrix [3][3]int = [3][3]int{
+    {1,2,3},
+    {4,5,6},
+    {7,8,9},
+}
+# slices
+copy,append,make
