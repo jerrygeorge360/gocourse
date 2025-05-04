@@ -1,0 +1,36 @@
+# closures
+refers to a function value that captures its surrounding environment (i.e., the variables in scope at the time of the closure's creation). In other words, a closure allows a function to remember and access variables from its lexical scope even after that scope has finished executing.
+practical use cases
+stateful functions
+encapsulation
+callbacks
+Usefulness of closures
+encapsulation
+flexibility
+readability
+Considerations
+Memor usage
+concurrency
+best practics
+limit scope
+avoid over usage
+
+# recursion
+practical use cases
+- mathematical algorithms
+- tree and graph traversal
+- divide and conquer algorithms
+
+Benefits
+- simplicity
+- clarity
+- flexibility
+
+Considerations
+- performance
+- Base case
+
+Best practics
+- testing
+- optimization
+- recursive case
