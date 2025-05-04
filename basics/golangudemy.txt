@@ -136,3 +136,16 @@ func compare(a,b int)(string,error){
 
 # variadic functions
 functions that allow you create a variable number of arguments just like kwargs args in python
+
+... -> destructures
+
+# defer
+a defer  is a mechanism that allows you to postphone the execution of a function until the surrounding functions is returned.
+practical use cases
+resource cleanup
+unlocking mutexes
+logging and tracing
+best practices
+keep deferred actions short
+understand evaluation timing
+avoid complex control flow
