@@ -152,3 +152,16 @@ avoid complex control flow
 
 # panic
 panic(interface{})
+a panic is a built in function that stops the flow of the program and starts panicking
+
+# recover
+used to regain control of a panic coroutine, to avoid abrupt termination.
+can be used to log or handle program gracefully,can be used with the defer function
+if there is no panic recover returns nil
+
+graceful recovery
+cleanup
+logging and reporting
+use with defer
+avoid silent recovery
+avoid overuse
