@@ -175,3 +175,18 @@ best practices
 avoid deferred actions
 status codes
 avoid abusive use
+
+# init function
+special function that can be declared in any package,
+ use to initialize values in packages,occurs once per package
+execute sequentially
+
+setup tasks
+configuration
+registering components
+database initialization
+
+best practices
+avoid side effects
+initialization order
+documentation
