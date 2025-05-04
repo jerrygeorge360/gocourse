@@ -165,3 +165,13 @@ logging and reporting
 use with defer
 avoid silent recovery
 avoid overuse
+
+# Exit
+Practical use cases
+terminate a program that can't be recovered
+termination conditions
+exit codes
+best practices
+avoid deferred actions
+status codes
+avoid abusive use
