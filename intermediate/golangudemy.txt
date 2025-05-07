@@ -59,3 +59,9 @@ lexical graphing comparison
 len
 utf8.RuneCountInString
 
+
+# fmt package
+printing functions-(print,)
+formating functions
+scanning functions
+error formatting functions
