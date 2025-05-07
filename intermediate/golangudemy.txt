@@ -68,3 +68,6 @@ error formatting functions
 
 
 # structs
+anonymous strcuts
+
+#methods
