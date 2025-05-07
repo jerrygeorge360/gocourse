@@ -34,3 +34,28 @@ Best practics
 - testing
 - optimization
 - recursive case
+
+# Pointers
+A pointer is a variable that stores the memory address of another variable.
+Use cases
+- modify the value of a variable indirectly 
+- pass large data structures efficiently between functions
+- manage memory directl for performance reasons
+pointer declaration and initialization
+var ptr * int
+initialization
+var a int = 10
+ptr = &a
+
+
+# strings
+sequence of bytes
+backticks - raw strings
+escape sequences: \n \t \r
+strings are arrays of unicode characters this unicode characters are called runes.
+trying to access the string returns the rune value(Ascii)
+lexical graphing comparison
+## methods
+len
+utf8.RuneCountInString
+
