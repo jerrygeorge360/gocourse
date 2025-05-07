@@ -65,3 +65,6 @@ printing functions-(print,)
 formating functions
 scanning functions
 error formatting functions
+
+
+# structs
