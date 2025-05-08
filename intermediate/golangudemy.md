@@ -77,3 +77,10 @@ interfaces provide a way to specify behaviours, it is similar to abstract method
 enables polymorphism
 
 in Go to export just make it upper case,no need to explicitly export it.
+
+# struct embedding
+Best prctics and considerations
+composition over inheritance
+avoid diamond problem
+clarity and readability
+initialization
