@@ -70,4 +70,10 @@ error formatting functions
 # structs
 anonymous strcuts
 
-#methods
+# methods
+
+# interfaces
+interfaces provide a way to specify behaviours, it is similar to abstract method in python. But no need for inheritance.
+enables polymorphism
+
+in Go to export just make it upper case,no need to explicitly export it.
