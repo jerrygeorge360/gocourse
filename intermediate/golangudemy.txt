@@ -1,0 +1,73 @@
+# closures
+refers to a function value that captures its surrounding environment (i.e., the variables in scope at the time of the closure's creation). In other words, a closure allows a function to remember and access variables from its lexical scope even after that scope has finished executing.
+practical use cases
+stateful functions
+encapsulation
+callbacks
+Usefulness of closures
+encapsulation
+flexibility
+readability
+Considerations
+Memor usage
+concurrency
+best practics
+limit scope
+avoid over usage
+
+# recursion
+practical use cases
+- mathematical algorithms
+- tree and graph traversal
+- divide and conquer algorithms
+
+Benefits
+- simplicity
+- clarity
+- flexibility
+
+Considerations
+- performance
+- Base case
+
+Best practics
+- testing
+- optimization
+- recursive case
+
+# Pointers
+A pointer is a variable that stores the memory address of another variable.
+Use cases
+- modify the value of a variable indirectly 
+- pass large data structures efficiently between functions
+- manage memory directl for performance reasons
+pointer declaration and initialization
+var ptr * int
+initialization
+var a int = 10
+ptr = &a
+
+
+# strings
+sequence of bytes
+backticks - raw strings
+escape sequences: \n \t \r
+strings are arrays of unicode characters this unicode characters are called runes.
+trying to access the string returns the rune value(Ascii)
+lexical graphing comparison
+## methods
+len
+utf8.RuneCountInString
+
+
+# fmt package
+printing functions-(print,)
+formating functions
+scanning functions
+error formatting functions
+
+
+# structs
+anonymous strcuts
+
+#methods

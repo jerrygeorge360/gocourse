@@ -1,4 +1,4 @@
-package main
+package basics
 
 func main() {
 	var numbers[]int
@@ -12,4 +12,6 @@ func main() {
 	dummy := &slice
 
 	fmt.Println(*dummy[2:5]) // can you guess what's contained in the array now?
+	
+	
 }
