@@ -194,3 +194,49 @@ func Add[T Number](a, b T) T {
     return a + b
 }
 ```
+## 🧰 **Errors**
+
+### 🔍 **Definition**
+
+In Go, errors are represented by the built-in `error` interface. It is the standard way to signal that an operation did not complete successfully.
+
+```go
+type error interface {
+    Error() string
+}
+```
+
+### 🛠️ **Implementation**
+
+* You can **create errors** using the `errors` package:
+
+  ```go
+  import "errors"
+
+  err := errors.New("something went wrong")
+  ```
+
+* Or using `fmt.Errorf` for formatted error messages:
+
+  ```go
+  err := fmt.Errorf("failed to load user: %v", userID)
+  ```
+
+* You can also **implement the `error` interface** with custom types:
+
+  ```go
+  type MyError struct {
+      Message string
+  }
+
+  func (e *MyError) Error() string {
+      return e.Message
+  }
+  ```
+
+### 🚨 **Best Practices**
+
+* Use `error` returns for **expected or recoverable errors**.
+* Use `panic` only for **unrecoverable conditions** (e.g., corrupted program state).
+* Always **check and handle errors** returned by functions.
+* Prefer wrapping errors with context to make debugging easier.
