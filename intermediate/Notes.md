@@ -240,3 +240,12 @@ type error interface {
 * Use `panic` only for **unrecoverable conditions** (e.g., corrupted program state).
 * Always **check and handle errors** returned by functions.
 * Prefer wrapping errors with context to make debugging easier.
+
+
+## 📍 **Custom errors**
+
+**Definition**
+In go you can create custom errors.
+
+### 🛠️ **Implementation**
+You create a custom error by creating a struct which would have the message of the error you want to pass and then create an error function that returns the an error type with the neccessary struct.
