@@ -249,3 +249,13 @@ In go you can create custom errors.
 
 ### 🛠️ **Implementation**
 You create a custom error by creating a struct which would have the message of the error you want to pass and then create an error function that returns the an error type with the neccessary struct.
+
+# strings functions
+
+
+**Definition**
+Strings in go are a sequence of bytes.In go you can create 
+
+**Implementation**
+
+str  := "Hello Go!"
