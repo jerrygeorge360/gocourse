@@ -259,3 +259,44 @@ Strings in go are a sequence of bytes.In go you can create
 **Implementation**
 
 str  := "Hello Go!"
+
+# text templates
+## actions
+- variable insertion
+- pipelines
+- control structures
+- iteration
+## advanced features
+- nested templates
+- functions
+- custom delimiters
+- error handling
+## use cases
+- Html generation
+- email templates
+- code generation
+- document generation
+## best practices
+- Separation of concern
+- efficieny
+- security
+
+# Regex
+escape sequences
+
+# Random
+seed:starting point for generating a sequence of random numbers
+```
+rand.Intn(n)
+rand.Float64()
+```
+considerations:
+
+deterministic nature
+thread safety
+cyrptographic security
+need to use mutex
+to generate randoms for cryptographic use make use of the crypto packagae instead of math
+
+# Number Parsing
+make use of this package strconv
